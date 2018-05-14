@@ -57,6 +57,25 @@
 				之后依赖boot项目的项目如果想要使用devtools, 需要重新引入 -->
 			<optional>true</optional>
 		</dependency>
+		
+		<!-- 配置文件，资源文件properties的读取-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		
+		<!-- 引入 freemarker 模板依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
+		
+		<!-- 引入 thymeleaf 模板依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
